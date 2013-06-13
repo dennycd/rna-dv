@@ -1,0 +1,580 @@
+%!PS-Adobe-1.0
+%%DocumentFonts: Helvetica
+%%Pages: 1
+%%BoundingBox: 36.00 94.40 576.00 682.60
+%%EndComments
+/censhow   %draw a centered string
+ { moveto               % move to proper spot
+   dup stringwidth pop  % get x length of string
+   -2 div               % Proper left start
+   yoff rmoveto         % Move left that much and down half font height
+   show newpath } def   % show the string
+
+/setfontsize     % set font to desired size and compute centering yoff
+ { /Helvetica findfont
+   exch scalefont
+   setfont         % Font size set ...
+
+   0 0 moveto      % Get vertical centering offset
+   (Xg) true charpath
+   flattenpath pathbbox
+   /ascent exch def pop -1 mul /descent exch def pop
+   newpath
+   descent ascent sub 2 div /yoff exch def } def
+
+% Next two lines for debugging only.
+/str 20 string def
+/pnum {str cvs print (  ) print} def
+/drawline      % draw a line from (x2,y2) to (x1,y1)
+ { moveto lineto stroke } def
+
+/rect          % outline a rectangle 
+ { /y2 exch def /x2 exch def /y1 exch def /x1 exch def
+   x1 y1 moveto
+   x2 y1 lineto
+   x2 y2 lineto
+   x1 y2 lineto
+   closepath } def
+
+/drawrect      % draw outline of a rectanagle
+ { rect stroke } def
+
+/fillrect      % fill in a rectanagle
+ { rect fill } def
+
+/drawarc { arc stroke } def           % draw an arc
+/drawarcn { arcn stroke } def         % draw an arc in the opposite direction
+
+%Fill a counterclockwise or clockwise arc sector, respectively.
+/fillarc { moveto currentpoint 5 2 roll arc closepath fill } def
+/fillarcn { moveto currentpoint 5 2 roll arcn closepath fill } def
+
+/fillpoly { 3 1 roll moveto         % move to first point
+   2 exch 1 exch {pop lineto} for   % line to all other points
+   closepath fill } def
+
+%Color Definitions:
+/white { 1 setgray } def
+/black { 0 setgray } def
+/grey55 { .55 setgray } def
+/grey75 { .75 setgray } def
+/blue { 0 0 1 setrgbcolor } def
+/green { 0 1 0 setrgbcolor } def
+/yellow { 1 1 0 setrgbcolor } def
+/cyan { 0 1 1 setrgbcolor } def
+/red { 1 0 0 setrgbcolor } def
+/darkgreen { 0 0.5 0 setrgbcolor } def
+/magenta { 1 0 1 setrgbcolor } def
+
+%Solid and dashed line definitions:
+/linesolid {[] 0 setdash} def
+/linedashed {[3 3] 0 setdash} def
+
+%%EndProlog
+%%Page: 1 1
+
+black
+linesolid
+0 setlinewidth
+10 setfontsize
+12 setfontsize
+() 306.00 101.40 censhow
+10 setfontsize
+36.00 109.40 576.00 682.60 rect clip newpath
+
+white
+clippath fill
+
+black
+12 setfontsize
+(RNA secondary structure) 306.00 101.40 censhow
+10 setfontsize
+(RNA: (q«∑º´ øå¸∑ˆ]…∑Åç¸‰ﬂ∑¨ ø@¨ øh∂˝∑¡åÌÈC+, length = 152, energy = 1247.400000 kal/mol) 306.00 612.00 censhow
+1 setlinewidth
+36.00 399.55 36.00 396.00 drawline
+39.55 399.55 39.55 396.00 drawline
+43.11 399.55 43.11 396.00 drawline
+46.66 399.55 46.66 396.00 drawline
+50.21 399.55 50.21 396.00 drawline
+53.76 399.55 53.76 396.00 drawline
+57.32 399.55 57.32 396.00 drawline
+60.87 399.55 60.87 396.00 drawline
+64.42 399.55 64.42 396.00 drawline
+67.97 399.55 67.97 396.00 drawline
+71.53 399.55 71.53 396.00 drawline
+75.08 399.55 75.08 396.00 drawline
+78.63 399.55 78.63 396.00 drawline
+82.18 399.55 82.18 396.00 drawline
+85.74 399.55 85.74 396.00 drawline
+89.29 399.55 89.29 396.00 drawline
+92.84 399.55 92.84 396.00 drawline
+96.39 399.55 96.39 396.00 drawline
+99.95 399.55 99.95 396.00 drawline
+103.50 399.55 103.50 396.00 drawline
+107.05 399.55 107.05 396.00 drawline
+110.61 399.55 110.61 396.00 drawline
+114.16 399.55 114.16 396.00 drawline
+117.71 399.55 117.71 396.00 drawline
+121.26 399.55 121.26 396.00 drawline
+124.82 399.55 124.82 396.00 drawline
+128.37 399.55 128.37 396.00 drawline
+131.92 399.55 131.92 396.00 drawline
+135.47 399.55 135.47 396.00 drawline
+139.03 399.55 139.03 396.00 drawline
+142.58 399.55 142.58 396.00 drawline
+146.13 399.55 146.13 396.00 drawline
+149.68 399.55 149.68 396.00 drawline
+153.24 399.55 153.24 396.00 drawline
+156.79 399.55 156.79 396.00 drawline
+160.34 399.55 160.34 396.00 drawline
+163.89 399.55 163.89 396.00 drawline
+167.45 399.55 167.45 396.00 drawline
+171.00 399.55 171.00 396.00 drawline
+174.55 399.55 174.55 396.00 drawline
+178.11 399.55 178.11 396.00 drawline
+181.66 399.55 181.66 396.00 drawline
+185.21 399.55 185.21 396.00 drawline
+188.76 399.55 188.76 396.00 drawline
+192.32 399.55 192.32 396.00 drawline
+195.87 399.55 195.87 396.00 drawline
+199.42 399.55 199.42 396.00 drawline
+202.97 399.55 202.97 396.00 drawline
+206.53 399.55 206.53 396.00 drawline
+210.08 399.55 210.08 396.00 drawline
+213.63 399.55 213.63 396.00 drawline
+217.18 399.55 217.18 396.00 drawline
+220.74 399.55 220.74 396.00 drawline
+224.29 399.55 224.29 396.00 drawline
+227.84 399.55 227.84 396.00 drawline
+231.39 399.55 231.39 396.00 drawline
+234.95 399.55 234.95 396.00 drawline
+238.50 399.55 238.50 396.00 drawline
+242.05 399.55 242.05 396.00 drawline
+245.61 399.55 245.61 396.00 drawline
+249.16 399.55 249.16 396.00 drawline
+252.71 399.55 252.71 396.00 drawline
+256.26 399.55 256.26 396.00 drawline
+259.82 399.55 259.82 396.00 drawline
+263.37 399.55 263.37 396.00 drawline
+266.92 399.55 266.92 396.00 drawline
+270.47 399.55 270.47 396.00 drawline
+274.03 399.55 274.03 396.00 drawline
+277.58 399.55 277.58 396.00 drawline
+281.13 399.55 281.13 396.00 drawline
+284.68 399.55 284.68 396.00 drawline
+288.24 399.55 288.24 396.00 drawline
+291.79 399.55 291.79 396.00 drawline
+295.34 399.55 295.34 396.00 drawline
+298.89 399.55 298.89 396.00 drawline
+302.45 399.55 302.45 396.00 drawline
+306.00 399.55 306.00 396.00 drawline
+309.55 399.55 309.55 396.00 drawline
+313.11 399.55 313.11 396.00 drawline
+316.66 399.55 316.66 396.00 drawline
+320.21 399.55 320.21 396.00 drawline
+323.76 399.55 323.76 396.00 drawline
+327.32 399.55 327.32 396.00 drawline
+330.87 399.55 330.87 396.00 drawline
+334.42 399.55 334.42 396.00 drawline
+337.97 399.55 337.97 396.00 drawline
+341.53 399.55 341.53 396.00 drawline
+345.08 399.55 345.08 396.00 drawline
+348.63 399.55 348.63 396.00 drawline
+352.18 399.55 352.18 396.00 drawline
+355.74 399.55 355.74 396.00 drawline
+359.29 399.55 359.29 396.00 drawline
+362.84 399.55 362.84 396.00 drawline
+366.39 399.55 366.39 396.00 drawline
+369.95 399.55 369.95 396.00 drawline
+373.50 399.55 373.50 396.00 drawline
+377.05 399.55 377.05 396.00 drawline
+380.61 399.55 380.61 396.00 drawline
+384.16 399.55 384.16 396.00 drawline
+387.71 399.55 387.71 396.00 drawline
+391.26 399.55 391.26 396.00 drawline
+394.82 399.55 394.82 396.00 drawline
+398.37 399.55 398.37 396.00 drawline
+401.92 399.55 401.92 396.00 drawline
+405.47 399.55 405.47 396.00 drawline
+409.03 399.55 409.03 396.00 drawline
+412.58 399.55 412.58 396.00 drawline
+416.13 399.55 416.13 396.00 drawline
+419.68 399.55 419.68 396.00 drawline
+423.24 399.55 423.24 396.00 drawline
+426.79 399.55 426.79 396.00 drawline
+430.34 399.55 430.34 396.00 drawline
+433.89 399.55 433.89 396.00 drawline
+437.45 399.55 437.45 396.00 drawline
+441.00 399.55 441.00 396.00 drawline
+444.55 399.55 444.55 396.00 drawline
+448.11 399.55 448.11 396.00 drawline
+451.66 399.55 451.66 396.00 drawline
+455.21 399.55 455.21 396.00 drawline
+458.76 399.55 458.76 396.00 drawline
+462.32 399.55 462.32 396.00 drawline
+465.87 399.55 465.87 396.00 drawline
+469.42 399.55 469.42 396.00 drawline
+472.97 399.55 472.97 396.00 drawline
+476.53 399.55 476.53 396.00 drawline
+480.08 399.55 480.08 396.00 drawline
+483.63 399.55 483.63 396.00 drawline
+487.18 399.55 487.18 396.00 drawline
+490.74 399.55 490.74 396.00 drawline
+494.29 399.55 494.29 396.00 drawline
+497.84 399.55 497.84 396.00 drawline
+501.39 399.55 501.39 396.00 drawline
+504.95 399.55 504.95 396.00 drawline
+508.50 399.55 508.50 396.00 drawline
+512.05 399.55 512.05 396.00 drawline
+515.61 399.55 515.61 396.00 drawline
+519.16 399.55 519.16 396.00 drawline
+522.71 399.55 522.71 396.00 drawline
+526.26 399.55 526.26 396.00 drawline
+529.82 399.55 529.82 396.00 drawline
+533.37 399.55 533.37 396.00 drawline
+536.92 399.55 536.92 396.00 drawline
+540.47 399.55 540.47 396.00 drawline
+544.03 399.55 544.03 396.00 drawline
+547.58 399.55 547.58 396.00 drawline
+551.13 399.55 551.13 396.00 drawline
+554.68 399.55 554.68 396.00 drawline
+558.24 399.55 558.24 396.00 drawline
+561.79 399.55 561.79 396.00 drawline
+565.34 399.55 565.34 396.00 drawline
+568.89 399.55 568.89 396.00 drawline
+572.45 399.55 572.45 396.00 drawline
+576.00 399.55 576.00 396.00 drawline
+36.00 399.55 576.00 399.55 drawline
+36.00 396.00 576.00 396.00 drawline
+(1-7; 66-72 ) 171.00 594.02 censhow
+(10-13; 22-25 ) 306.00 594.02 censhow
+(26-32; 38-44 ) 171.00 576.01 censhow
+(49-53; 61-65 ) 306.00 576.01 censhow
+(77-83; 142-148 ) 171.00 558.00 censhow
+(86-89; 98-101 ) 306.00 558.00 censhow
+(102-108; 114-120 ) 171.00 540.02 censhow
+(125-129; 137-141 ) 306.00 540.02 censhow
+blue
+36.71 398.84 38.84 396.71 fillrect
+yellow
+40.26 398.84 42.39 396.71 fillrect
+blue
+43.82 398.84 45.95 396.71 fillrect
+47.37 398.84 49.50 396.71 fillrect
+red
+50.92 398.84 53.05 396.71 fillrect
+green
+54.47 398.84 56.61 396.71 fillrect
+58.03 398.84 60.16 396.71 fillrect
+61.58 398.84 63.71 396.71 fillrect
+red
+65.13 398.84 67.26 396.71 fillrect
+blue
+68.68 398.84 70.82 396.71 fillrect
+yellow
+72.24 398.84 74.37 396.71 fillrect
+green
+75.79 398.84 77.92 396.71 fillrect
+yellow
+79.34 398.84 81.47 396.71 fillrect
+red
+82.89 398.84 85.03 396.71 fillrect
+blue
+86.45 398.84 88.58 396.71 fillrect
+green
+90.00 398.84 92.13 396.71 fillrect
+93.55 398.84 95.68 396.71 fillrect
+blue
+97.11 398.84 99.24 396.71 fillrect
+100.66 398.84 102.79 396.71 fillrect
+104.21 398.84 106.34 396.71 fillrect
+red
+107.76 398.84 109.89 396.71 fillrect
+blue
+111.32 398.84 113.45 396.71 fillrect
+red
+114.87 398.84 117.00 396.71 fillrect
+blue
+118.42 398.84 120.55 396.71 fillrect
+yellow
+121.97 398.84 124.11 396.71 fillrect
+blue
+125.53 398.84 127.66 396.71 fillrect
+yellow
+129.08 398.84 131.21 396.71 fillrect
+132.63 398.84 134.76 396.71 fillrect
+red
+136.18 398.84 138.32 396.71 fillrect
+blue
+139.74 398.84 141.87 396.71 fillrect
+red
+143.29 398.84 145.42 396.71 fillrect
+yellow
+146.84 398.84 148.97 396.71 fillrect
+green
+150.39 398.84 152.53 396.71 fillrect
+blue
+153.95 398.84 156.08 396.71 fillrect
+red
+157.50 398.84 159.63 396.71 fillrect
+161.05 398.84 163.18 396.71 fillrect
+blue
+164.61 398.84 166.74 396.71 fillrect
+red
+168.16 398.84 170.29 396.71 fillrect
+black
+171.71 398.84 173.84 396.71 fillrect
+yellow
+175.26 398.84 177.39 396.71 fillrect
+green
+178.82 398.84 180.95 396.71 fillrect
+blue
+182.37 398.84 184.50 396.71 fillrect
+185.92 398.84 188.05 396.71 fillrect
+red
+189.47 398.84 191.61 396.71 fillrect
+blue
+193.03 398.84 195.16 396.71 fillrect
+196.58 398.84 198.71 396.71 fillrect
+green
+200.13 398.84 202.26 396.71 fillrect
+yellow
+203.68 398.84 205.82 396.71 fillrect
+207.24 398.84 209.37 396.71 fillrect
+green
+210.79 398.84 212.92 396.71 fillrect
+blue
+214.34 398.84 216.47 396.71 fillrect
+green
+217.89 398.84 220.03 396.71 fillrect
+blue
+221.45 398.84 223.58 396.71 fillrect
+green
+225.00 398.84 227.13 396.71 fillrect
+black
+228.55 398.84 230.68 396.71 fillrect
+yellow
+232.11 398.84 234.24 396.71 fillrect
+blue
+235.66 398.84 237.79 396.71 fillrect
+red
+239.21 398.84 241.34 396.71 fillrect
+green
+242.76 398.84 244.89 396.71 fillrect
+yellow
+246.32 398.84 248.45 396.71 fillrect
+249.87 398.84 252.00 396.71 fillrect
+red
+253.42 398.84 255.55 396.71 fillrect
+yellow
+256.97 398.84 259.11 396.71 fillrect
+red
+260.53 398.84 262.66 396.71 fillrect
+blue
+264.08 398.84 266.21 396.71 fillrect
+red
+267.63 398.84 269.76 396.71 fillrect
+271.18 398.84 273.32 396.71 fillrect
+green
+274.74 398.84 276.87 396.71 fillrect
+278.29 398.84 280.42 396.71 fillrect
+yellow
+281.84 398.84 283.97 396.71 fillrect
+blue
+285.39 398.84 287.53 396.71 fillrect
+yellow
+288.95 398.84 291.08 396.71 fillrect
+red
+292.50 398.84 294.63 396.71 fillrect
+yellow
+296.05 398.84 298.18 396.71 fillrect
+299.61 398.84 301.74 396.71 fillrect
+red
+303.16 398.84 305.29 396.71 fillrect
+blue
+306.71 398.84 308.84 396.71 fillrect
+yellow
+310.26 398.84 312.39 396.71 fillrect
+blue
+313.82 398.84 315.95 396.71 fillrect
+317.37 398.84 319.50 396.71 fillrect
+red
+320.92 398.84 323.05 396.71 fillrect
+green
+324.47 398.84 326.61 396.71 fillrect
+328.03 398.84 330.16 396.71 fillrect
+331.58 398.84 333.71 396.71 fillrect
+red
+335.13 398.84 337.26 396.71 fillrect
+blue
+338.68 398.84 340.82 396.71 fillrect
+yellow
+342.24 398.84 344.37 396.71 fillrect
+green
+345.79 398.84 347.92 396.71 fillrect
+yellow
+349.34 398.84 351.47 396.71 fillrect
+red
+352.89 398.84 355.03 396.71 fillrect
+blue
+356.45 398.84 358.58 396.71 fillrect
+green
+360.00 398.84 362.13 396.71 fillrect
+363.55 398.84 365.68 396.71 fillrect
+blue
+367.11 398.84 369.24 396.71 fillrect
+370.66 398.84 372.79 396.71 fillrect
+374.21 398.84 376.34 396.71 fillrect
+red
+377.76 398.84 379.89 396.71 fillrect
+blue
+381.32 398.84 383.45 396.71 fillrect
+red
+384.87 398.84 387.00 396.71 fillrect
+blue
+388.42 398.84 390.55 396.71 fillrect
+yellow
+391.97 398.84 394.11 396.71 fillrect
+blue
+395.53 398.84 397.66 396.71 fillrect
+yellow
+399.08 398.84 401.21 396.71 fillrect
+402.63 398.84 404.76 396.71 fillrect
+red
+406.18 398.84 408.32 396.71 fillrect
+blue
+409.74 398.84 411.87 396.71 fillrect
+red
+413.29 398.84 415.42 396.71 fillrect
+yellow
+416.84 398.84 418.97 396.71 fillrect
+green
+420.39 398.84 422.53 396.71 fillrect
+blue
+423.95 398.84 426.08 396.71 fillrect
+red
+427.50 398.84 429.63 396.71 fillrect
+431.05 398.84 433.18 396.71 fillrect
+blue
+434.61 398.84 436.74 396.71 fillrect
+red
+438.16 398.84 440.29 396.71 fillrect
+black
+441.71 398.84 443.84 396.71 fillrect
+yellow
+445.26 398.84 447.39 396.71 fillrect
+green
+448.82 398.84 450.95 396.71 fillrect
+blue
+452.37 398.84 454.50 396.71 fillrect
+455.92 398.84 458.05 396.71 fillrect
+red
+459.47 398.84 461.61 396.71 fillrect
+blue
+463.03 398.84 465.16 396.71 fillrect
+466.58 398.84 468.71 396.71 fillrect
+green
+470.13 398.84 472.26 396.71 fillrect
+yellow
+473.68 398.84 475.82 396.71 fillrect
+477.24 398.84 479.37 396.71 fillrect
+green
+480.79 398.84 482.92 396.71 fillrect
+blue
+484.34 398.84 486.47 396.71 fillrect
+green
+487.89 398.84 490.03 396.71 fillrect
+blue
+491.45 398.84 493.58 396.71 fillrect
+green
+495.00 398.84 497.13 396.71 fillrect
+black
+498.55 398.84 500.68 396.71 fillrect
+yellow
+502.11 398.84 504.24 396.71 fillrect
+blue
+505.66 398.84 507.79 396.71 fillrect
+red
+509.21 398.84 511.34 396.71 fillrect
+green
+512.76 398.84 514.89 396.71 fillrect
+yellow
+516.32 398.84 518.45 396.71 fillrect
+519.87 398.84 522.00 396.71 fillrect
+red
+523.42 398.84 525.55 396.71 fillrect
+yellow
+526.97 398.84 529.11 396.71 fillrect
+red
+530.53 398.84 532.66 396.71 fillrect
+blue
+534.08 398.84 536.21 396.71 fillrect
+red
+537.63 398.84 539.76 396.71 fillrect
+541.18 398.84 543.32 396.71 fillrect
+green
+544.74 398.84 546.87 396.71 fillrect
+548.29 398.84 550.42 396.71 fillrect
+yellow
+551.84 398.84 553.97 396.71 fillrect
+blue
+555.39 398.84 557.53 396.71 fillrect
+yellow
+558.95 398.84 561.08 396.71 fillrect
+red
+562.50 398.84 564.63 396.71 fillrect
+yellow
+566.05 398.84 568.18 396.71 fillrect
+569.61 398.84 571.74 396.71 fillrect
+red
+573.16 398.84 575.29 396.71 fillrect
+black
+163.89 396.04 126.12 0.00 -180.00 drawarcn stroke
+163.89 396.04 122.57 0.00 -180.00 drawarcn stroke
+163.89 396.04 119.01 0.00 -180.00 drawarcn stroke
+163.89 396.04 115.46 0.00 -180.00 drawarcn stroke
+163.89 396.04 111.91 0.00 -180.00 drawarcn stroke
+163.89 396.04 108.36 0.00 -180.00 drawarcn stroke
+163.89 396.04 104.80 0.00 -180.00 drawarcn stroke
+96.39 396.04 26.64 0.00 -180.00 drawarcn stroke
+96.39 396.04 23.09 0.00 -180.00 drawarcn stroke
+96.39 396.04 19.54 0.00 -180.00 drawarcn stroke
+96.39 396.04 15.99 0.00 -180.00 drawarcn stroke
+158.57 396.04 31.97 0.00 -180.00 drawarcn stroke
+158.57 396.04 28.42 0.00 -180.00 drawarcn stroke
+158.57 396.04 24.87 0.00 -180.00 drawarcn stroke
+158.57 396.04 21.32 0.00 -180.00 drawarcn stroke
+158.57 396.04 17.76 0.00 -180.00 drawarcn stroke
+158.57 396.04 14.21 0.00 -180.00 drawarcn stroke
+158.57 396.04 10.66 0.00 -180.00 drawarcn stroke
+236.72 396.04 28.42 0.00 -180.00 drawarcn stroke
+236.72 396.04 24.87 0.00 -180.00 drawarcn stroke
+236.72 396.04 21.32 0.00 -180.00 drawarcn stroke
+236.72 396.04 17.76 0.00 -180.00 drawarcn stroke
+236.72 396.04 14.21 0.00 -180.00 drawarcn stroke
+433.89 396.04 126.12 0.00 -180.00 drawarcn stroke
+433.89 396.04 122.57 0.00 -180.00 drawarcn stroke
+433.89 396.04 119.01 0.00 -180.00 drawarcn stroke
+433.89 396.04 115.46 0.00 -180.00 drawarcn stroke
+433.89 396.04 111.91 0.00 -180.00 drawarcn stroke
+433.89 396.04 108.36 0.00 -180.00 drawarcn stroke
+433.89 396.04 104.80 0.00 -180.00 drawarcn stroke
+366.39 396.04 26.64 0.00 -180.00 drawarcn stroke
+366.39 396.04 23.09 0.00 -180.00 drawarcn stroke
+366.39 396.04 19.54 0.00 -180.00 drawarcn stroke
+366.39 396.04 15.99 0.00 -180.00 drawarcn stroke
+428.57 396.04 31.97 0.00 -180.00 drawarcn stroke
+428.57 396.04 28.42 0.00 -180.00 drawarcn stroke
+428.57 396.04 24.87 0.00 -180.00 drawarcn stroke
+428.57 396.04 21.32 0.00 -180.00 drawarcn stroke
+428.57 396.04 17.76 0.00 -180.00 drawarcn stroke
+428.57 396.04 14.21 0.00 -180.00 drawarcn stroke
+428.57 396.04 10.66 0.00 -180.00 drawarcn stroke
+506.72 396.04 28.42 0.00 -180.00 drawarcn stroke
+506.72 396.04 24.87 0.00 -180.00 drawarcn stroke
+506.72 396.04 21.32 0.00 -180.00 drawarcn stroke
+506.72 396.04 17.76 0.00 -180.00 drawarcn stroke
+506.72 396.04 14.21 0.00 -180.00 drawarcn stroke
+showpage
+
+%%Trailer

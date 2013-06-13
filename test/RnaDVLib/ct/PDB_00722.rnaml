@@ -1,0 +1,414 @@
+<?xml version="1.0"?>
+<!DOCTYPE rnaml SYSTEM "rnaml.dtd">
+
+<rnaml version="1.0">
+
+   <molecule id="1">
+      <sequence>
+         <numbering-system id="1" used-in-file="false">
+            <numbering-range>
+               <start>1</start>
+               <end>76</end>
+            </numbering-range>
+         </numbering-system>
+         <seq-data>
+            GCGGAUUUAg CUCAGuuGGG AGAGCgCCAG AcUgAAgAPc UGGAGgUCcU GUGuPCGaUC
+            CACAGAAUUC GCACCA
+         </seq-data>
+      </sequence>
+      <structure>
+         <model id="?">
+            <str-annotation>
+               <base-pair comment="?">
+                  <base-id-5p>
+                     <base-id><position>1</position></base-id>
+                  </base-id-5p>
+                  <base-id-3p>
+                     <base-id><position>72</position></base-id>
+                  </base-id-3p>
+               </base-pair>
+               <base-pair comment="?">
+                  <base-id-5p>
+                     <base-id><position>2</position></base-id>
+                  </base-id-5p>
+                  <base-id-3p>
+                     <base-id><position>71</position></base-id>
+                  </base-id-3p>
+               </base-pair>
+               <base-pair comment="?">
+                  <base-id-5p>
+                     <base-id><position>3</position></base-id>
+                  </base-id-5p>
+                  <base-id-3p>
+                     <base-id><position>70</position></base-id>
+                  </base-id-3p>
+               </base-pair>
+               <base-pair comment="?">
+                  <base-id-5p>
+                     <base-id><position>4</position></base-id>
+                  </base-id-5p>
+                  <base-id-3p>
+                     <base-id><position>69</position></base-id>
+                  </base-id-3p>
+               </base-pair>
+               <base-pair comment="?">
+                  <base-id-5p>
+                     <base-id><position>5</position></base-id>
+                  </base-id-5p>
+                  <base-id-3p>
+                     <base-id><position>68</position></base-id>
+                  </base-id-3p>
+               </base-pair>
+               <base-pair comment="?">
+                  <base-id-5p>
+                     <base-id><position>6</position></base-id>
+                  </base-id-5p>
+                  <base-id-3p>
+                     <base-id><position>67</position></base-id>
+                  </base-id-3p>
+               </base-pair>
+               <base-pair comment="?">
+                  <base-id-5p>
+                     <base-id><position>7</position></base-id>
+                  </base-id-5p>
+                  <base-id-3p>
+                     <base-id><position>66</position></base-id>
+                  </base-id-3p>
+               </base-pair>
+               <base-pair comment="?">
+                  <base-id-5p>
+                     <base-id><position>10</position></base-id>
+                  </base-id-5p>
+                  <base-id-3p>
+                     <base-id><position>25</position></base-id>
+                  </base-id-3p>
+               </base-pair>
+               <base-pair comment="?">
+                  <base-id-5p>
+                     <base-id><position>11</position></base-id>
+                  </base-id-5p>
+                  <base-id-3p>
+                     <base-id><position>24</position></base-id>
+                  </base-id-3p>
+               </base-pair>
+               <base-pair comment="?">
+                  <base-id-5p>
+                     <base-id><position>12</position></base-id>
+                  </base-id-5p>
+                  <base-id-3p>
+                     <base-id><position>23</position></base-id>
+                  </base-id-3p>
+               </base-pair>
+               <base-pair comment="?">
+                  <base-id-5p>
+                     <base-id><position>13</position></base-id>
+                  </base-id-5p>
+                  <base-id-3p>
+                     <base-id><position>22</position></base-id>
+                  </base-id-3p>
+               </base-pair>
+               <base-pair comment="?">
+                  <base-id-5p>
+                     <base-id><position>26</position></base-id>
+                  </base-id-5p>
+                  <base-id-3p>
+                     <base-id><position>44</position></base-id>
+                  </base-id-3p>
+               </base-pair>
+               <base-pair comment="?">
+                  <base-id-5p>
+                     <base-id><position>27</position></base-id>
+                  </base-id-5p>
+                  <base-id-3p>
+                     <base-id><position>43</position></base-id>
+                  </base-id-3p>
+               </base-pair>
+               <base-pair comment="?">
+                  <base-id-5p>
+                     <base-id><position>28</position></base-id>
+                  </base-id-5p>
+                  <base-id-3p>
+                     <base-id><position>42</position></base-id>
+                  </base-id-3p>
+               </base-pair>
+               <base-pair comment="?">
+                  <base-id-5p>
+                     <base-id><position>29</position></base-id>
+                  </base-id-5p>
+                  <base-id-3p>
+                     <base-id><position>41</position></base-id>
+                  </base-id-3p>
+               </base-pair>
+               <base-pair comment="?">
+                  <base-id-5p>
+                     <base-id><position>30</position></base-id>
+                  </base-id-5p>
+                  <base-id-3p>
+                     <base-id><position>40</position></base-id>
+                  </base-id-3p>
+               </base-pair>
+               <base-pair comment="?">
+                  <base-id-5p>
+                     <base-id><position>31</position></base-id>
+                  </base-id-5p>
+                  <base-id-3p>
+                     <base-id><position>39</position></base-id>
+                  </base-id-3p>
+               </base-pair>
+               <base-pair comment="?">
+                  <base-id-5p>
+                     <base-id><position>32</position></base-id>
+                  </base-id-5p>
+                  <base-id-3p>
+                     <base-id><position>38</position></base-id>
+                  </base-id-3p>
+               </base-pair>
+               <base-pair comment="?">
+                  <base-id-5p>
+                     <base-id><position>49</position></base-id>
+                  </base-id-5p>
+                  <base-id-3p>
+                     <base-id><position>65</position></base-id>
+                  </base-id-3p>
+               </base-pair>
+               <base-pair comment="?">
+                  <base-id-5p>
+                     <base-id><position>50</position></base-id>
+                  </base-id-5p>
+                  <base-id-3p>
+                     <base-id><position>64</position></base-id>
+                  </base-id-3p>
+               </base-pair>
+               <base-pair comment="?">
+                  <base-id-5p>
+                     <base-id><position>51</position></base-id>
+                  </base-id-5p>
+                  <base-id-3p>
+                     <base-id><position>63</position></base-id>
+                  </base-id-3p>
+               </base-pair>
+               <base-pair comment="?">
+                  <base-id-5p>
+                     <base-id><position>52</position></base-id>
+                  </base-id-5p>
+                  <base-id-3p>
+                     <base-id><position>62</position></base-id>
+                  </base-id-3p>
+               </base-pair>
+               <base-pair comment="?">
+                  <base-id-5p>
+                     <base-id><position>53</position></base-id>
+                  </base-id-5p>
+                  <base-id-3p>
+                     <base-id><position>61</position></base-id>
+                  </base-id-3p>
+               </base-pair>
+            </str-annotation>
+         </model>
+      </structure>
+   </molecule>
+   <molecule id="2">
+      <sequence>
+         <numbering-system id="2" used-in-file="false">
+            <numbering-range>
+               <start>1</start>
+               <end>76</end>
+            </numbering-range>
+         </numbering-system>
+         <seq-data>
+            GCGGAUUUAg CUCAGuuGGG AGAGCgCCAG AcUgAAgAPc UGGAGgUCcU GUGuPCGaUC
+            CACAGAAUUC GCACCA
+         </seq-data>
+      </sequence>
+      <structure>
+         <model id="?">
+            <str-annotation>
+               <base-pair comment="?">
+                  <base-id-5p>
+                     <base-id><position>77</position></base-id>
+                  </base-id-5p>
+                  <base-id-3p>
+                     <base-id><position>148</position></base-id>
+                  </base-id-3p>
+               </base-pair>
+               <base-pair comment="?">
+                  <base-id-5p>
+                     <base-id><position>78</position></base-id>
+                  </base-id-5p>
+                  <base-id-3p>
+                     <base-id><position>147</position></base-id>
+                  </base-id-3p>
+               </base-pair>
+               <base-pair comment="?">
+                  <base-id-5p>
+                     <base-id><position>79</position></base-id>
+                  </base-id-5p>
+                  <base-id-3p>
+                     <base-id><position>146</position></base-id>
+                  </base-id-3p>
+               </base-pair>
+               <base-pair comment="?">
+                  <base-id-5p>
+                     <base-id><position>80</position></base-id>
+                  </base-id-5p>
+                  <base-id-3p>
+                     <base-id><position>145</position></base-id>
+                  </base-id-3p>
+               </base-pair>
+               <base-pair comment="?">
+                  <base-id-5p>
+                     <base-id><position>81</position></base-id>
+                  </base-id-5p>
+                  <base-id-3p>
+                     <base-id><position>144</position></base-id>
+                  </base-id-3p>
+               </base-pair>
+               <base-pair comment="?">
+                  <base-id-5p>
+                     <base-id><position>82</position></base-id>
+                  </base-id-5p>
+                  <base-id-3p>
+                     <base-id><position>143</position></base-id>
+                  </base-id-3p>
+               </base-pair>
+               <base-pair comment="?">
+                  <base-id-5p>
+                     <base-id><position>83</position></base-id>
+                  </base-id-5p>
+                  <base-id-3p>
+                     <base-id><position>142</position></base-id>
+                  </base-id-3p>
+               </base-pair>
+               <base-pair comment="?">
+                  <base-id-5p>
+                     <base-id><position>86</position></base-id>
+                  </base-id-5p>
+                  <base-id-3p>
+                     <base-id><position>101</position></base-id>
+                  </base-id-3p>
+               </base-pair>
+               <base-pair comment="?">
+                  <base-id-5p>
+                     <base-id><position>87</position></base-id>
+                  </base-id-5p>
+                  <base-id-3p>
+                     <base-id><position>100</position></base-id>
+                  </base-id-3p>
+               </base-pair>
+               <base-pair comment="?">
+                  <base-id-5p>
+                     <base-id><position>88</position></base-id>
+                  </base-id-5p>
+                  <base-id-3p>
+                     <base-id><position>99</position></base-id>
+                  </base-id-3p>
+               </base-pair>
+               <base-pair comment="?">
+                  <base-id-5p>
+                     <base-id><position>89</position></base-id>
+                  </base-id-5p>
+                  <base-id-3p>
+                     <base-id><position>98</position></base-id>
+                  </base-id-3p>
+               </base-pair>
+               <base-pair comment="?">
+                  <base-id-5p>
+                     <base-id><position>102</position></base-id>
+                  </base-id-5p>
+                  <base-id-3p>
+                     <base-id><position>120</position></base-id>
+                  </base-id-3p>
+               </base-pair>
+               <base-pair comment="?">
+                  <base-id-5p>
+                     <base-id><position>103</position></base-id>
+                  </base-id-5p>
+                  <base-id-3p>
+                     <base-id><position>119</position></base-id>
+                  </base-id-3p>
+               </base-pair>
+               <base-pair comment="?">
+                  <base-id-5p>
+                     <base-id><position>104</position></base-id>
+                  </base-id-5p>
+                  <base-id-3p>
+                     <base-id><position>118</position></base-id>
+                  </base-id-3p>
+               </base-pair>
+               <base-pair comment="?">
+                  <base-id-5p>
+                     <base-id><position>105</position></base-id>
+                  </base-id-5p>
+                  <base-id-3p>
+                     <base-id><position>117</position></base-id>
+                  </base-id-3p>
+               </base-pair>
+               <base-pair comment="?">
+                  <base-id-5p>
+                     <base-id><position>106</position></base-id>
+                  </base-id-5p>
+                  <base-id-3p>
+                     <base-id><position>116</position></base-id>
+                  </base-id-3p>
+               </base-pair>
+               <base-pair comment="?">
+                  <base-id-5p>
+                     <base-id><position>107</position></base-id>
+                  </base-id-5p>
+                  <base-id-3p>
+                     <base-id><position>115</position></base-id>
+                  </base-id-3p>
+               </base-pair>
+               <base-pair comment="?">
+                  <base-id-5p>
+                     <base-id><position>108</position></base-id>
+                  </base-id-5p>
+                  <base-id-3p>
+                     <base-id><position>114</position></base-id>
+                  </base-id-3p>
+               </base-pair>
+               <base-pair comment="?">
+                  <base-id-5p>
+                     <base-id><position>125</position></base-id>
+                  </base-id-5p>
+                  <base-id-3p>
+                     <base-id><position>141</position></base-id>
+                  </base-id-3p>
+               </base-pair>
+               <base-pair comment="?">
+                  <base-id-5p>
+                     <base-id><position>126</position></base-id>
+                  </base-id-5p>
+                  <base-id-3p>
+                     <base-id><position>140</position></base-id>
+                  </base-id-3p>
+               </base-pair>
+               <base-pair comment="?">
+                  <base-id-5p>
+                     <base-id><position>127</position></base-id>
+                  </base-id-5p>
+                  <base-id-3p>
+                     <base-id><position>139</position></base-id>
+                  </base-id-3p>
+               </base-pair>
+               <base-pair comment="?">
+                  <base-id-5p>
+                     <base-id><position>128</position></base-id>
+                  </base-id-5p>
+                  <base-id-3p>
+                     <base-id><position>138</position></base-id>
+                  </base-id-3p>
+               </base-pair>
+               <base-pair comment="?">
+                  <base-id-5p>
+                     <base-id><position>129</position></base-id>
+                  </base-id-5p>
+                  <base-id-3p>
+                     <base-id><position>137</position></base-id>
+                  </base-id-3p>
+               </base-pair>
+            </str-annotation>
+         </model>
+      </structure>
+   </molecule>
+</rnaml>

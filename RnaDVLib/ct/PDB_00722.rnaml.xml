@@ -1,0 +1,893 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<!DOCTYPE TOUCHGRAPH_LB [
+
+<!ELEMENT TOUCHGRAPH_LB (NODESET, EDGESET, PARAMETERS)>
+<!ELEMENT NODESET (NODE+)>
+<!ELEMENT EDGESET (EDGE*)>
+<!ELEMENT PARAMETERS (PARAM*)>
+
+<!ELEMENT NODE (NODE_LOCATION?, NODE_LABEL?)>
+
+<!ELEMENT NODE_LABEL EMPTY>
+<!ELEMENT NODE_URL EMPTY>
+<!ELEMENT NODE_HINT EMPTY>
+
+<!ATTLIST TOUCHGRAPH_LB
+  version CDATA #REQUIRED >
+
+<!ATTLIST NODE
+  nodeID CDATA #REQUIRED >
+
+<!ATTLIST NODE_LOCATION
+  visible CDATA #IMPLIED
+  x CDATA #IMPLIED
+  y CDATA #IMPLIED >
+
+<!ATTLIST NODE_LABEL
+  label CDATA #REQUIRED 
+  shape CDATA #IMPLIED
+  backColor CDATA #IMPLIED 
+  textColor CDATA #IMPLIED
+  fontSize CDATA #IMPLIED >
+
+<!ATTLIST NODE_URL 
+  url CDATA #REQUIRED 
+  urlIsLocal CDATA #IMPLIED 
+  urlIsXML CDATA #IMPLIED >
+
+<!ATTLIST NODE_HINT 
+  hint CDATA #REQUIRED 
+  height CDATA #IMPLIED 
+  width CDATA #IMPLIED 
+  isHTML CDATA #IMPLIED >  
+
+<!ELEMENT EDGE EMPTY>
+
+<!ATTLIST EDGE
+  fromID CDATA #REQUIRED
+  toID CDATA #REQUIRED 
+  length CDATA #IMPLIED 
+  color CDATA #IMPLIED 
+  type CDATA #IMPLIED
+  visible CDATA #IMPLIED >
+
+<!ELEMENT PARAM EMPTY>
+
+<!ATTLIST PARAM
+  name CDATA #REQUIRED
+  value CDATA #REQUIRED >
+]>
+
+
+
+<TOUCHGRAPH_LB version="1.20"> 
+<NODESET> 
+	 <NODE nodeID="0"> 
+		 <NODE_LOCATION x="-57" y="-8" visible="true"/> 
+		 <NODE_LABEL label="5'" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="1"> 
+		 <NODE_LOCATION x="-57" y="-8" visible="true"/> 
+		 <NODE_LABEL label="G" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="2"> 
+		 <NODE_LOCATION x="-97" y="-6" visible="true"/> 
+		 <NODE_LABEL label="C" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="3"> 
+		 <NODE_LOCATION x="-137" y="-5" visible="true"/> 
+		 <NODE_LABEL label="G" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="4"> 
+		 <NODE_LOCATION x="-177" y="-4" visible="true"/> 
+		 <NODE_LABEL label="G" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="5"> 
+		 <NODE_LOCATION x="-217" y="-2" visible="true"/> 
+		 <NODE_LABEL label="A" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="6"> 
+		 <NODE_LOCATION x="-257" y="-1" visible="true"/> 
+		 <NODE_LABEL label="U" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="7"> 
+		 <NODE_LOCATION x="-297" y="0" visible="true"/> 
+		 <NODE_LABEL label="U" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="8"> 
+		 <NODE_LOCATION x="-312" y="30" visible="true"/> 
+		 <NODE_LABEL label="U" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="9"> 
+		 <NODE_LOCATION x="-338" y="53" visible="true"/> 
+		 <NODE_LABEL label="A" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="10"> 
+		 <NODE_LOCATION x="-371" y="64" visible="true"/> 
+		 <NODE_LABEL label="g" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="11"> 
+		 <NODE_LOCATION x="-378" y="103" visible="true"/> 
+		 <NODE_LABEL label="C" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="12"> 
+		 <NODE_LOCATION x="-385" y="142" visible="true"/> 
+		 <NODE_LABEL label="U" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="13"> 
+		 <NODE_LOCATION x="-392" y="182" visible="true"/> 
+		 <NODE_LABEL label="C" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="14"> 
+		 <NODE_LOCATION x="-370" y="208" visible="true"/> 
+		 <NODE_LABEL label="A" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="15"> 
+		 <NODE_LOCATION x="-367" y="242" visible="true"/> 
+		 <NODE_LABEL label="G" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="16"> 
+		 <NODE_LOCATION x="-384" y="272" visible="true"/> 
+		 <NODE_LABEL label="u" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="17"> 
+		 <NODE_LOCATION x="-415" y="287" visible="true"/> 
+		 <NODE_LABEL label="u" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="18"> 
+		 <NODE_LOCATION x="-449" y="281" visible="true"/> 
+		 <NODE_LABEL label="G" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="19"> 
+		 <NODE_LOCATION x="-474" y="256" visible="true"/> 
+		 <NODE_LABEL label="G" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="20"> 
+		 <NODE_LOCATION x="-480" y="222" visible="true"/> 
+		 <NODE_LABEL label="G" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="21"> 
+		 <NODE_LOCATION x="-465" y="191" visible="true"/> 
+		 <NODE_LABEL label="A" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="22"> 
+		 <NODE_LOCATION x="-436" y="174" visible="true"/> 
+		 <NODE_LABEL label="G" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="23"> 
+		 <NODE_LOCATION x="-429" y="135" visible="true"/> 
+		 <NODE_LABEL label="A" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="24"> 
+		 <NODE_LOCATION x="-422" y="95" visible="true"/> 
+		 <NODE_LABEL label="G" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="25"> 
+		 <NODE_LOCATION x="-415" y="56" visible="true"/> 
+		 <NODE_LABEL label="C" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="26"> 
+		 <NODE_LOCATION x="-443" y="35" visible="true"/> 
+		 <NODE_LABEL label="g" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="27"> 
+		 <NODE_LOCATION x="-478" y="52" visible="true"/> 
+		 <NODE_LABEL label="C" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="28"> 
+		 <NODE_LOCATION x="-515" y="70" visible="true"/> 
+		 <NODE_LABEL label="C" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="29"> 
+		 <NODE_LOCATION x="-551" y="87" visible="true"/> 
+		 <NODE_LABEL label="A" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="30"> 
+		 <NODE_LOCATION x="-587" y="104" visible="true"/> 
+		 <NODE_LABEL label="G" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="31"> 
+		 <NODE_LOCATION x="-623" y="122" visible="true"/> 
+		 <NODE_LABEL label="A" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="32"> 
+		 <NODE_LOCATION x="-659" y="139" visible="true"/> 
+		 <NODE_LABEL label="c" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="33"> 
+		 <NODE_LOCATION x="-676" y="167" visible="true"/> 
+		 <NODE_LABEL label="U" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="34"> 
+		 <NODE_LOCATION x="-709" y="173" visible="true"/> 
+		 <NODE_LABEL label="g" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="35"> 
+		 <NODE_LOCATION x="-736" y="151" visible="true"/> 
+		 <NODE_LABEL label="A" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="36"> 
+		 <NODE_LOCATION x="-736" y="117" visible="true"/> 
+		 <NODE_LABEL label="A" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="37"> 
+		 <NODE_LOCATION x="-711" y="95" visible="true"/> 
+		 <NODE_LABEL label="g" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="38"> 
+		 <NODE_LOCATION x="-678" y="99" visible="true"/> 
+		 <NODE_LABEL label="A" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="39"> 
+		 <NODE_LOCATION x="-642" y="81" visible="true"/> 
+		 <NODE_LABEL label="P" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="40"> 
+		 <NODE_LOCATION x="-606" y="64" visible="true"/> 
+		 <NODE_LABEL label="c" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="41"> 
+		 <NODE_LOCATION x="-570" y="47" visible="true"/> 
+		 <NODE_LABEL label="U" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="42"> 
+		 <NODE_LOCATION x="-534" y="29" visible="true"/> 
+		 <NODE_LABEL label="G" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="43"> 
+		 <NODE_LOCATION x="-498" y="12" visible="true"/> 
+		 <NODE_LABEL label="G" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="44"> 
+		 <NODE_LOCATION x="-462" y="-4" visible="true"/> 
+		 <NODE_LABEL label="A" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="45"> 
+		 <NODE_LOCATION x="-461" y="-39" visible="true"/> 
+		 <NODE_LABEL label="G" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="46"> 
+		 <NODE_LOCATION x="-446" y="-70" visible="true"/> 
+		 <NODE_LABEL label="g" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="47"> 
+		 <NODE_LOCATION x="-420" y="-93" visible="true"/> 
+		 <NODE_LABEL label="U" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="48"> 
+		 <NODE_LOCATION x="-387" y="-103" visible="true"/> 
+		 <NODE_LABEL label="C" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="49"> 
+		 <NODE_LOCATION x="-352" y="-99" visible="true"/> 
+		 <NODE_LABEL label="c" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="50"> 
+		 <NODE_LOCATION x="-330" y="-133" visible="true"/> 
+		 <NODE_LABEL label="U" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="51"> 
+		 <NODE_LOCATION x="-308" y="-166" visible="true"/> 
+		 <NODE_LABEL label="G" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="52"> 
+		 <NODE_LOCATION x="-286" y="-199" visible="true"/> 
+		 <NODE_LABEL label="U" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="53"> 
+		 <NODE_LOCATION x="-263" y="-233" visible="true"/> 
+		 <NODE_LABEL label="G" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="54"> 
+		 <NODE_LOCATION x="-270" y="-266" visible="true"/> 
+		 <NODE_LABEL label="u" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="55"> 
+		 <NODE_LOCATION x="-255" y="-296" visible="true"/> 
+		 <NODE_LABEL label="P" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="56"> 
+		 <NODE_LOCATION x="-223" y="-310" visible="true"/> 
+		 <NODE_LABEL label="C" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="57"> 
+		 <NODE_LOCATION x="-190" y="-302" visible="true"/> 
+		 <NODE_LABEL label="G" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="58"> 
+		 <NODE_LOCATION x="-170" y="-274" visible="true"/> 
+		 <NODE_LABEL label="a" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="59"> 
+		 <NODE_LOCATION x="-171" y="-240" visible="true"/> 
+		 <NODE_LABEL label="U" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="60"> 
+		 <NODE_LOCATION x="-193" y="-214" visible="true"/> 
+		 <NODE_LABEL label="C" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="61"> 
+		 <NODE_LOCATION x="-226" y="-208" visible="true"/> 
+		 <NODE_LABEL label="C" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="62"> 
+		 <NODE_LOCATION x="-248" y="-174" visible="true"/> 
+		 <NODE_LABEL label="A" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="63"> 
+		 <NODE_LOCATION x="-271" y="-141" visible="true"/> 
+		 <NODE_LABEL label="C" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="64"> 
+		 <NODE_LOCATION x="-293" y="-108" visible="true"/> 
+		 <NODE_LABEL label="A" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="65"> 
+		 <NODE_LOCATION x="-315" y="-75" visible="true"/> 
+		 <NODE_LABEL label="G" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="66"> 
+		 <NODE_LOCATION x="-298" y="-45" visible="true"/> 
+		 <NODE_LABEL label="A" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="67"> 
+		 <NODE_LOCATION x="-258" y="-46" visible="true"/> 
+		 <NODE_LABEL label="A" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="68"> 
+		 <NODE_LOCATION x="-218" y="-47" visible="true"/> 
+		 <NODE_LABEL label="U" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="69"> 
+		 <NODE_LOCATION x="-178" y="-49" visible="true"/> 
+		 <NODE_LABEL label="U" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="70"> 
+		 <NODE_LOCATION x="-138" y="-50" visible="true"/> 
+		 <NODE_LABEL label="C" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="71"> 
+		 <NODE_LOCATION x="-98" y="-51" visible="true"/> 
+		 <NODE_LABEL label="G" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="72"> 
+		 <NODE_LOCATION x="-58" y="-52" visible="true"/> 
+		 <NODE_LABEL label="C" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="73"> 
+		 <NODE_LOCATION x="-43" y="-84" visible="true"/> 
+		 <NODE_LABEL label="A" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="74"> 
+		 <NODE_LOCATION x="-17" y="-106" visible="true"/> 
+		 <NODE_LABEL label="C" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="75"> 
+		 <NODE_LOCATION x="16" y="-115" visible="true"/> 
+		 <NODE_LABEL label="C" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="76"> 
+		 <NODE_LOCATION x="50" y="-110" visible="true"/> 
+		 <NODE_LABEL label="A" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="77"> 
+		 <NODE_LOCATION x="79" y="-92" visible="true"/> 
+		 <NODE_LABEL label="G" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="78"> 
+		 <NODE_LOCATION x="114" y="-112" visible="true"/> 
+		 <NODE_LABEL label="C" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="79"> 
+		 <NODE_LOCATION x="149" y="-131" visible="true"/> 
+		 <NODE_LABEL label="G" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="80"> 
+		 <NODE_LOCATION x="183" y="-151" visible="true"/> 
+		 <NODE_LABEL label="G" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="81"> 
+		 <NODE_LOCATION x="218" y="-171" visible="true"/> 
+		 <NODE_LABEL label="A" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="82"> 
+		 <NODE_LOCATION x="253" y="-191" visible="true"/> 
+		 <NODE_LABEL label="U" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="83"> 
+		 <NODE_LOCATION x="288" y="-210" visible="true"/> 
+		 <NODE_LABEL label="U" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="84"> 
+		 <NODE_LOCATION x="286" y="-245" visible="true"/> 
+		 <NODE_LABEL label="U" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="85"> 
+		 <NODE_LOCATION x="299" y="-277" visible="true"/> 
+		 <NODE_LABEL label="A" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="86"> 
+		 <NODE_LOCATION x="324" y="-302" visible="true"/> 
+		 <NODE_LABEL label="g" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="87"> 
+		 <NODE_LOCATION x="311" y="-340" visible="true"/> 
+		 <NODE_LABEL label="C" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="88"> 
+		 <NODE_LOCATION x="299" y="-378" visible="true"/> 
+		 <NODE_LABEL label="U" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="89"> 
+		 <NODE_LOCATION x="287" y="-416" visible="true"/> 
+		 <NODE_LABEL label="C" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="90"> 
+		 <NODE_LOCATION x="256" y="-429" visible="true"/> 
+		 <NODE_LABEL label="A" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="91"> 
+		 <NODE_LOCATION x="237" y="-458" visible="true"/> 
+		 <NODE_LABEL label="G" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="92"> 
+		 <NODE_LOCATION x="238" y="-492" visible="true"/> 
+		 <NODE_LABEL label="u" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="93"> 
+		 <NODE_LOCATION x="259" y="-520" visible="true"/> 
+		 <NODE_LABEL label="u" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="94"> 
+		 <NODE_LOCATION x="292" y="-530" visible="true"/> 
+		 <NODE_LABEL label="G" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="95"> 
+		 <NODE_LOCATION x="325" y="-520" visible="true"/> 
+		 <NODE_LABEL label="G" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="96"> 
+		 <NODE_LOCATION x="346" y="-493" visible="true"/> 
+		 <NODE_LABEL label="G" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="97"> 
+		 <NODE_LOCATION x="348" y="-458" visible="true"/> 
+		 <NODE_LABEL label="A" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="98"> 
+		 <NODE_LOCATION x="330" y="-430" visible="true"/> 
+		 <NODE_LABEL label="G" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="99"> 
+		 <NODE_LOCATION x="342" y="-392" visible="true"/> 
+		 <NODE_LABEL label="A" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="100"> 
+		 <NODE_LOCATION x="354" y="-353" visible="true"/> 
+		 <NODE_LABEL label="G" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="101"> 
+		 <NODE_LOCATION x="366" y="-315" visible="true"/> 
+		 <NODE_LABEL label="C" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="102"> 
+		 <NODE_LOCATION x="400" y="-310" visible="true"/> 
+		 <NODE_LABEL label="g" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="103"> 
+		 <NODE_LOCATION x="424" y="-342" visible="true"/> 
+		 <NODE_LABEL label="C" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="104"> 
+		 <NODE_LOCATION x="448" y="-374" visible="true"/> 
+		 <NODE_LABEL label="C" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="105"> 
+		 <NODE_LOCATION x="472" y="-406" visible="true"/> 
+		 <NODE_LABEL label="A" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="106"> 
+		 <NODE_LOCATION x="496" y="-438" visible="true"/> 
+		 <NODE_LABEL label="G" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="107"> 
+		 <NODE_LOCATION x="519" y="-470" visible="true"/> 
+		 <NODE_LABEL label="A" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="108"> 
+		 <NODE_LOCATION x="543" y="-502" visible="true"/> 
+		 <NODE_LABEL label="c" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="109"> 
+		 <NODE_LOCATION x="546" y="-535" visible="true"/> 
+		 <NODE_LABEL label="U" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="110"> 
+		 <NODE_LOCATION x="572" y="-556" visible="true"/> 
+		 <NODE_LABEL label="g" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="111"> 
+		 <NODE_LOCATION x="606" y="-549" visible="true"/> 
+		 <NODE_LABEL label="A" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="112"> 
+		 <NODE_LOCATION x="622" y="-519" visible="true"/> 
+		 <NODE_LABEL label="A" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="113"> 
+		 <NODE_LOCATION x="610" y="-487" visible="true"/> 
+		 <NODE_LABEL label="g" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="114"> 
+		 <NODE_LOCATION x="579" y="-475" visible="true"/> 
+		 <NODE_LABEL label="A" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="115"> 
+		 <NODE_LOCATION x="555" y="-443" visible="true"/> 
+		 <NODE_LABEL label="P" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="116"> 
+		 <NODE_LOCATION x="532" y="-411" visible="true"/> 
+		 <NODE_LABEL label="c" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="117"> 
+		 <NODE_LOCATION x="508" y="-379" visible="true"/> 
+		 <NODE_LABEL label="U" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="118"> 
+		 <NODE_LOCATION x="484" y="-347" visible="true"/> 
+		 <NODE_LABEL label="G" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="119"> 
+		 <NODE_LOCATION x="460" y="-315" visible="true"/> 
+		 <NODE_LABEL label="G" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="120"> 
+		 <NODE_LOCATION x="436" y="-283" visible="true"/> 
+		 <NODE_LABEL label="A" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="121"> 
+		 <NODE_LOCATION x="451" y="-252" visible="true"/> 
+		 <NODE_LABEL label="G" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="122"> 
+		 <NODE_LOCATION x="453" y="-217" visible="true"/> 
+		 <NODE_LABEL label="g" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="123"> 
+		 <NODE_LOCATION x="440" y="-185" visible="true"/> 
+		 <NODE_LABEL label="U" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="124"> 
+		 <NODE_LOCATION x="416" y="-160" visible="true"/> 
+		 <NODE_LABEL label="C" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="125"> 
+		 <NODE_LOCATION x="383" y="-148" visible="true"/> 
+		 <NODE_LABEL label="c" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="126"> 
+		 <NODE_LOCATION x="379" y="-108" visible="true"/> 
+		 <NODE_LABEL label="U" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="127"> 
+		 <NODE_LOCATION x="375" y="-68" visible="true"/> 
+		 <NODE_LABEL label="G" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="128"> 
+		 <NODE_LOCATION x="371" y="-28" visible="true"/> 
+		 <NODE_LABEL label="U" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="129"> 
+		 <NODE_LOCATION x="366" y="10" visible="true"/> 
+		 <NODE_LABEL label="G" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="130"> 
+		 <NODE_LOCATION x="388" y="36" visible="true"/> 
+		 <NODE_LABEL label="u" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="131"> 
+		 <NODE_LOCATION x="388" y="71" visible="true"/> 
+		 <NODE_LABEL label="P" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="132"> 
+		 <NODE_LOCATION x="367" y="98" visible="true"/> 
+		 <NODE_LABEL label="C" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="133"> 
+		 <NODE_LOCATION x="334" y="106" visible="true"/> 
+		 <NODE_LABEL label="G" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="134"> 
+		 <NODE_LOCATION x="303" y="91" visible="true"/> 
+		 <NODE_LABEL label="a" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="135"> 
+		 <NODE_LOCATION x="288" y="60" visible="true"/> 
+		 <NODE_LABEL label="U" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="136"> 
+		 <NODE_LOCATION x="296" y="27" visible="true"/> 
+		 <NODE_LABEL label="C" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="137"> 
+		 <NODE_LOCATION x="322" y="6" visible="true"/> 
+		 <NODE_LABEL label="C" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="138"> 
+		 <NODE_LOCATION x="326" y="-33" visible="true"/> 
+		 <NODE_LABEL label="A" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="139"> 
+		 <NODE_LOCATION x="330" y="-73" visible="true"/> 
+		 <NODE_LABEL label="C" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="140"> 
+		 <NODE_LOCATION x="334" y="-113" visible="true"/> 
+		 <NODE_LABEL label="A" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="141"> 
+		 <NODE_LOCATION x="339" y="-152" visible="true"/> 
+		 <NODE_LABEL label="G" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="142"> 
+		 <NODE_LOCATION x="310" y="-171" visible="true"/> 
+		 <NODE_LABEL label="A" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="143"> 
+		 <NODE_LOCATION x="275" y="-151" visible="true"/> 
+		 <NODE_LABEL label="A" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="144"> 
+		 <NODE_LOCATION x="240" y="-132" visible="true"/> 
+		 <NODE_LABEL label="U" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="145"> 
+		 <NODE_LOCATION x="206" y="-112" visible="true"/> 
+		 <NODE_LABEL label="U" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="146"> 
+		 <NODE_LOCATION x="171" y="-92" visible="true"/> 
+		 <NODE_LABEL label="C" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="147"> 
+		 <NODE_LOCATION x="136" y="-72" visible="true"/> 
+		 <NODE_LABEL label="G" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="148"> 
+		 <NODE_LOCATION x="101" y="-53" visible="true"/> 
+		 <NODE_LABEL label="C" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="149"> 
+		 <NODE_LOCATION x="102" y="-18" visible="true"/> 
+		 <NODE_LABEL label="A" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="150"> 
+		 <NODE_LOCATION x="89" y="13" visible="true"/> 
+		 <NODE_LABEL label="C" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="151"> 
+		 <NODE_LOCATION x="64" y="37" visible="true"/> 
+		 <NODE_LABEL label="C" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="152"> 
+		 <NODE_LOCATION x="31" y="48" visible="true"/> 
+		 <NODE_LABEL label="A" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+	 <NODE nodeID="153"> 
+		 <NODE_LOCATION x="31" y="48" visible="true"/> 
+		 <NODE_LABEL label="3'" shape="4" backColor="FFFFFF" textColor="FFFFFF" fontSize="12"/> 
+	 </NODE> 
+</NODESET> 
+
+<EDGESET>
+	 <EDGE fromID="1" toID="72"  type="3" length="20" visible="true" color="0000B0"/> 
+	 <EDGE fromID="2" toID="71"  type="3" length="20" visible="true" color="0000B0"/> 
+	 <EDGE fromID="3" toID="70"  type="3" length="20" visible="true" color="0000B0"/> 
+	 <EDGE fromID="4" toID="69"  type="3" length="20" visible="true" color="0000B0"/> 
+	 <EDGE fromID="5" toID="68"  type="3" length="20" visible="true" color="0000B0"/> 
+	 <EDGE fromID="6" toID="67"  type="3" length="20" visible="true" color="0000B0"/> 
+	 <EDGE fromID="7" toID="66"  type="3" length="20" visible="true" color="0000B0"/> 
+	 <EDGE fromID="10" toID="25"  type="3" length="20" visible="true" color="0000B0"/> 
+	 <EDGE fromID="11" toID="24"  type="3" length="20" visible="true" color="0000B0"/> 
+	 <EDGE fromID="12" toID="23"  type="3" length="20" visible="true" color="0000B0"/> 
+	 <EDGE fromID="13" toID="22"  type="3" length="20" visible="true" color="0000B0"/> 
+	 <EDGE fromID="26" toID="44"  type="3" length="20" visible="true" color="0000B0"/> 
+	 <EDGE fromID="27" toID="43"  type="3" length="20" visible="true" color="0000B0"/> 
+	 <EDGE fromID="28" toID="42"  type="3" length="20" visible="true" color="0000B0"/> 
+	 <EDGE fromID="29" toID="41"  type="3" length="20" visible="true" color="0000B0"/> 
+	 <EDGE fromID="30" toID="40"  type="3" length="20" visible="true" color="0000B0"/> 
+	 <EDGE fromID="31" toID="39"  type="3" length="20" visible="true" color="0000B0"/> 
+	 <EDGE fromID="32" toID="38"  type="3" length="20" visible="true" color="0000B0"/> 
+	 <EDGE fromID="49" toID="65"  type="3" length="20" visible="true" color="0000B0"/> 
+	 <EDGE fromID="50" toID="64"  type="3" length="20" visible="true" color="0000B0"/> 
+	 <EDGE fromID="51" toID="63"  type="3" length="20" visible="true" color="0000B0"/> 
+	 <EDGE fromID="52" toID="62"  type="3" length="20" visible="true" color="0000B0"/> 
+	 <EDGE fromID="53" toID="61"  type="3" length="20" visible="true" color="0000B0"/> 
+	 <EDGE fromID="77" toID="148"  type="3" length="20" visible="true" color="0000B0"/> 
+	 <EDGE fromID="78" toID="147"  type="3" length="20" visible="true" color="0000B0"/> 
+	 <EDGE fromID="79" toID="146"  type="3" length="20" visible="true" color="0000B0"/> 
+	 <EDGE fromID="80" toID="145"  type="3" length="20" visible="true" color="0000B0"/> 
+	 <EDGE fromID="81" toID="144"  type="3" length="20" visible="true" color="0000B0"/> 
+	 <EDGE fromID="82" toID="143"  type="3" length="20" visible="true" color="0000B0"/> 
+	 <EDGE fromID="83" toID="142"  type="3" length="20" visible="true" color="0000B0"/> 
+	 <EDGE fromID="86" toID="101"  type="3" length="20" visible="true" color="0000B0"/> 
+	 <EDGE fromID="87" toID="100"  type="3" length="20" visible="true" color="0000B0"/> 
+	 <EDGE fromID="88" toID="99"  type="3" length="20" visible="true" color="0000B0"/> 
+	 <EDGE fromID="89" toID="98"  type="3" length="20" visible="true" color="0000B0"/> 
+	 <EDGE fromID="102" toID="120"  type="3" length="20" visible="true" color="0000B0"/> 
+	 <EDGE fromID="103" toID="119"  type="3" length="20" visible="true" color="0000B0"/> 
+	 <EDGE fromID="104" toID="118"  type="3" length="20" visible="true" color="0000B0"/> 
+	 <EDGE fromID="105" toID="117"  type="3" length="20" visible="true" color="0000B0"/> 
+	 <EDGE fromID="106" toID="116"  type="3" length="20" visible="true" color="0000B0"/> 
+	 <EDGE fromID="107" toID="115"  type="3" length="20" visible="true" color="0000B0"/> 
+	 <EDGE fromID="108" toID="114"  type="3" length="20" visible="true" color="0000B0"/> 
+	 <EDGE fromID="125" toID="141"  type="3" length="20" visible="true" color="0000B0"/> 
+	 <EDGE fromID="126" toID="140"  type="3" length="20" visible="true" color="0000B0"/> 
+	 <EDGE fromID="127" toID="139"  type="3" length="20" visible="true" color="0000B0"/> 
+	 <EDGE fromID="128" toID="138"  type="3" length="20" visible="true" color="0000B0"/> 
+	 <EDGE fromID="129" toID="137"  type="3" length="20" visible="true" color="0000B0"/> 
+
+	 <EDGE fromID="1" toID="2"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="2" toID="3"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="3" toID="4"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="4" toID="5"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="5" toID="6"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="6" toID="7"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="7" toID="8"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="8" toID="9"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="9" toID="10"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="10" toID="11"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="11" toID="12"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="12" toID="13"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="13" toID="14"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="14" toID="15"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="15" toID="16"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="16" toID="17"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="17" toID="18"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="18" toID="19"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="19" toID="20"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="20" toID="21"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="21" toID="22"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="22" toID="23"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="23" toID="24"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="24" toID="25"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="25" toID="26"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="26" toID="27"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="27" toID="28"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="28" toID="29"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="29" toID="30"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="30" toID="31"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="31" toID="32"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="32" toID="33"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="33" toID="34"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="34" toID="35"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="35" toID="36"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="36" toID="37"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="37" toID="38"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="38" toID="39"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="39" toID="40"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="40" toID="41"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="41" toID="42"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="42" toID="43"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="43" toID="44"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="44" toID="45"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="45" toID="46"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="46" toID="47"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="47" toID="48"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="48" toID="49"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="49" toID="50"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="50" toID="51"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="51" toID="52"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="52" toID="53"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="53" toID="54"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="54" toID="55"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="55" toID="56"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="56" toID="57"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="57" toID="58"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="58" toID="59"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="59" toID="60"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="60" toID="61"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="61" toID="62"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="62" toID="63"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="63" toID="64"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="64" toID="65"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="65" toID="66"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="66" toID="67"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="67" toID="68"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="68" toID="69"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="69" toID="70"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="70" toID="71"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="71" toID="72"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="72" toID="73"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="73" toID="74"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="74" toID="75"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="75" toID="76"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="76" toID="77"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="77" toID="78"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="78" toID="79"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="79" toID="80"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="80" toID="81"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="81" toID="82"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="82" toID="83"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="83" toID="84"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="84" toID="85"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="85" toID="86"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="86" toID="87"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="87" toID="88"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="88" toID="89"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="89" toID="90"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="90" toID="91"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="91" toID="92"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="92" toID="93"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="93" toID="94"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="94" toID="95"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="95" toID="96"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="96" toID="97"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="97" toID="98"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="98" toID="99"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="99" toID="100"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="100" toID="101"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="101" toID="102"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="102" toID="103"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="103" toID="104"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="104" toID="105"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="105" toID="106"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="106" toID="107"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="107" toID="108"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="108" toID="109"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="109" toID="110"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="110" toID="111"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="111" toID="112"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="112" toID="113"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="113" toID="114"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="114" toID="115"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="115" toID="116"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="116" toID="117"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="117" toID="118"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="118" toID="119"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="119" toID="120"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="120" toID="121"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="121" toID="122"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="122" toID="123"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="123" toID="124"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="124" toID="125"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="125" toID="126"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="126" toID="127"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="127" toID="128"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="128" toID="129"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="129" toID="130"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="130" toID="131"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="131" toID="132"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="132" toID="133"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="133" toID="134"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="134" toID="135"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="135" toID="136"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="136" toID="137"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="137" toID="138"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="138" toID="139"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="139" toID="140"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="140" toID="141"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="141" toID="142"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="142" toID="143"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="143" toID="144"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="144" toID="145"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="145" toID="146"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="146" toID="147"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="147" toID="148"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="148" toID="149"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="149" toID="150"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="150" toID="151"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="151" toID="152"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="0" toID="1"  type="2" length="2" visible="true" color="6F6F6F"/> 
+	 <EDGE fromID="152" toID="153"  type="2" length="2" visible="true" color="6F6F6F"/> 
+</EDGESET> 
+
+ <PARAMETERS>
+ <PARAM name="offsetX" value="627"/>
+ <PARAM name="rotateSB" value="0"/>
+ <PARAM name="zoomSB" value="-7"/>
+ <PARAM name="offsetY" value="19"/>
+ </PARAMETERS> 
+</TOUCHGRAPH_LB>
