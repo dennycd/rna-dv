@@ -17,6 +17,7 @@ A user manual is here [GUIManual](https://github.com/dennycd/rna-dv/raw/master/d
 
 ## Author
 Denny C. Dai <dennycd@me.com> or visit <http://dennycd.me>
+
 Herbert H. Tsang <http://htsang.wikidot.com>
 
 ## License 
