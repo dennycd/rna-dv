@@ -13,3 +13,11 @@ It also recognizes a number of secondary structure formats including CT, RNAML a
 A user manual is here [GUIManual](https://github.com/dennycd/rna-dv/raw/master/doc/GUImanual.pdf). There is also a screencast demo 
 
 [![RNA-DV](http://img.youtube.com/vi/vw81LfueITw/0.jpg)](https://www.youtube.com/watch?v=vw81LfueITw)
+
+
+## Author
+Denny C. Dai <dennycd@me.com> or visit <http://dennycd.me>
+Herbert H. Tsang <http://htsang.wikidot.com>
+
+## License 
+The GNU Lesser General Public License, version 3.0 (LGPL-3.0)
