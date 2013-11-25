@@ -21,4 +21,4 @@ Denny C. Dai <dennycd@me.com> or visit <http://dennycd.me>
 Herbert H. Tsang <http://htsang.wikidot.com>
 
 ## License 
-The GNU Lesser General Public License, version 3.0 (LGPL-3.0)
+MIT License 
