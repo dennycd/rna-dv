@@ -21,4 +21,4 @@ Denny C. Dai <dennycd@me.com> or visit <http://dennycd.me>
 Herbert H. Tsang <http://htsang.wikidot.com>
 
 ## License 
-MIT License 
+[MIT License](http://opensource.org/licenses/MIT) 
